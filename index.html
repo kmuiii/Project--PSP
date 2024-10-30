@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reza Pratama</title>
+
+        <!-- REMIXICON -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media.css">
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">Reza Pratama</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#profile">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="img/profile.png" alt="Reza Pratama">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hai, I'am</p>
+                <h1 class="title">Reza Pratama</h1>
+                <p class="section__text__p2">Informatics Student</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2">
+                        Download CV</button>
+                    <button class="btn btn-color-1" onclick="location.href='#contact'">Contact</button>
+                </div>
+                <div id="social-container">
+                    <img src="img/linkedin.png" alt="linkedin" class="icon"
+                    onclick="window.open('https://www.linkedin.com/in/areza-noor-pratama-956a36318', '_blank')">
+                    <img src="img/github.png" alt="github" class="icon" onclick="window.open('https://github.com', '_blank')">
+               
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="img/about.jpg" alt="about_me" class="about-pic" >
+                </div>
+                <div class="about-details-container">
+                    <div class="text-container">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In modi aliquid id ipsum blanditiis magni voluptatibus reprehenderit nihil, voluptas, impedit fuga ratione. Illo, quos ducimus? Voluptatibus quam consequatur amet nam?</p>
+                    </div>
+                </div>
+            </div>
+            <i class="ri-arrow-down-double-line arrow" onclick="location.href='#projects'"></i>
+        </section>
+        <section id="projects">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="project">
+                <div class="pembungkus-card">
+                    <div class="card">
+                        <h3>Project 01</h3>
+                        <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quod dolorum officiis tempore omnis laudantium accusamus blanditiis temporibus reprehenderit ratione ut nostrum</p>
+                    </div>
+                    <div class="card">
+                        <h3>Project 02</h3>
+                        <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quod dolorum officiis tempore omnis laudantium accusamus blanditiis temporibus reprehenderit ratione ut nostrum</p>
+                    </div>
+                    <div class="card">
+                        <h3>Project 03</h3>
+                        <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quod dolorum officiis tempore omnis laudantium accusamus blanditiis temporibus reprehenderit ratione ut nostrum</p>
+                    </div>
+                    
+                    <i class="ri-arrow-down-double-line arrow" onclick="location.href='#contact'"></i>
+        </section>
+        <section id="contact">
+            <p class="section__text__p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="img/email.png" alt="" class="icon contact_icon">
+                    <p><a href="mailto:pratamaareza111@gmail.com">pratamaareza111@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="img/linkedin.png" alt="" class="icon contact_icon">
+                    <p><a href="https://www.linkedin.com/in/areza-noor-pratama-956a36318" target="_blank">LinkedIn</a></p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#profile">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>&#169; All Rights Reserved By
+                <a href="#profile">Reza Pratama</a></p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
